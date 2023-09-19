@@ -1,0 +1,13 @@
+button {
+    border: dotted;
+    color:maroon;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+
+}
+#img {
+    display: flex; 
+    flex-aligh: center;
+    max-height: 500px;
+}
