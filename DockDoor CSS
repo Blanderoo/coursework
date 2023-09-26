@@ -1,0 +1,113 @@
+/*Navigation Bars*/
+
+.myNavbar {
+  display: flex;
+  margin: 0;
+      margin-left: 660px;
+      margin-top: 5px;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.mySpans {
+  display: inline;
+  padding: 1px;
+}
+
+a.mySpansText {
+  color: white;
+}
+
+/*background city image*/
+img {
+  margin: auto;
+  display: block;
+}
+
+
+section {
+  font-size:15px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 1020px;
+}
+
+/*section holding the nav bar*/
+.topPortion {
+  justify-content: center;
+  background-image: url("https://raw.githubusercontent.com/abinjawed/test-Images/main/city5.jpg");
+  gap: 4px;
+  background-size: auto;
+  min-width: 1020px;
+  max-width: 1843px;
+  height: 80px;
+  align-content: center;
+  margin-bottom: 12px;
+  border: 1px solid #2d2d2d;
+}
+
+/*sections holding the breadcrumbs*/
+.breadcrumbs {
+    min-width: 1020px;
+    max-width: 1843px;
+    height: 80px; 
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+ ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+table {
+    border: 1px solid black;
+  }
+  
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.overViewMap {
+    height: auto;
+}
+
+  /* Horizontal Scroll */
+.scroll-container{
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 5px 5px 5px 5px;
+  background: transparent;
+  height: 100%;
+  border-radius:15px;
+}
+
+.gridscroll{
+  display:flex;
+}
+
+.gridscroll img {
+  margin-right:5px;
+}
